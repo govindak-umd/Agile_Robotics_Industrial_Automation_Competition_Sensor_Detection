@@ -1,4 +1,0 @@
-[36mRunning tests...[0m
-/usr/bin/ctest --force-new-ctest-process 
-Test project /home/govind/ariac_ws/build/nist_gear
-No tests were found!!!

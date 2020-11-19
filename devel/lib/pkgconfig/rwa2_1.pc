@@ -1,1 +1,0 @@
-/home/govind/ariac_ws/devel/.private/rwa2_1/lib/pkgconfig/rwa2_1.pc

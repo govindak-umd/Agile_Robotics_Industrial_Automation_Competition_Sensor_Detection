@@ -16,11 +16,11 @@
 3. cd /ariac_ws
 4. catkin build <your_package_name>
 5. source devel/setup.bash
-6. roslaunch <your_package_name> rwa3.launch load_moveit:=true
+6. roslaunch <your_package_name> rwa2.launch load_moveit:=true
 
 Wait till the terminal says "you can start planning now"
 
 7. Open a new terminal and enter the following command to run the node.
 8. cd /ariac_ws
 9. source devel/setup.bash
-10. rosrun <your_package_name> rwa3_node
+10. rosrun <your_package_name> rwa2.launch

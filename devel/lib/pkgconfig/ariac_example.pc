@@ -1,1 +1,0 @@
-/home/govind/ariac_ws/devel/.private/ariac_example/lib/pkgconfig/ariac_example.pc
