@@ -23,4 +23,4 @@ Wait till the terminal says "you can start planning now"
 7. Open a new terminal and enter the following command to run the node.
 8. cd /ariac_ws
 9. source devel/setup.bash
-10. rosrun <your_package_name> rwa2.launch
+10. rosrun <your_package_name> rwa2
