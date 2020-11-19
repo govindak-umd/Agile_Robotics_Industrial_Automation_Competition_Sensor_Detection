@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="1" failures="0" name="unittest.suite.TestSuite" tests="1" time="2.045"><testcase classname="__main__.TfTester" name="test" time="2.0450"><error type="LookupException">"kit_tray_2" passed to lookupTransform argument target_frame does not exist. 
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_tf_frames.py", line 27, in test
+    self._test_tray_pose()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_tf_frames.py", line 41, in _test_tray_pose
+    'kit_tray_2',
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_tf_frames.py", line 90, in _test_pose
+    expected_pose.header.frame_id, frame_id, rospy.Time(), rospy.Duration(1.0)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/tf2_ros/buffer.py", line 87, in lookup_transform
+    return self.lookup_transform_core(target_frame, source_frame, time)
+</error></testcase><system-out>&lt;![CDATA[
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

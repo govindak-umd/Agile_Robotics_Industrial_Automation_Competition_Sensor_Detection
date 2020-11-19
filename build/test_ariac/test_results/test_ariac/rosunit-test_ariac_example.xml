@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="1" failures="0" name="unittest.suite.TestSuite" tests="1" time="6.023"><testcase classname="__main__.ExampleNodeTester" name="test" time="6.0233"><error type="AttributeError">'NoneType' object has no attribute 'position'
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_example_node.py", line 36, in test
+    self._test_send_arm_to_zero_state()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_example_node.py", line 77, in _test_send_arm_to_zero_state
+    for position in self.comp_class.arm_1_current_joint_state.position:
+</error></testcase><system-out>&lt;![CDATA[
+Preparing tester
+sending arm to zero state
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

@@ -1,0 +1,6 @@
+devel_space: /home/govind/ariac_ws/devel
+install: false
+install_space: /home/govind/ariac_ws/install
+profile: default
+source_space: /home/govind/ariac_ws/src
+workspace: /home/govind/ariac_ws

@@ -1,0 +1,1 @@
+/usr/bin/cmake -H/home/govind/ariac_ws/src/ARIAC/test_ariac -B/home/govind/ariac_ws/build/test_ariac --check-build-system CMakeFiles/Makefile.cmake 0

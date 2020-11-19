@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="1" failures="1" time="1" errors="0" name="rostest-test_gripper_drop_over_box.xml">
+  <testcase name="test_ran" status="run" time="1" classname="Results">
+    <failure message="Unable to find test results for rostest-test_gripper_drop_over_box.xml, test did not run.
+Expected results in /home/govind/ariac_ws/build/test_ariac/test_results/nist_gear/rostest-test_gripper_drop_over_box.xml" type=""/>
+  </testcase>
+</testsuite>

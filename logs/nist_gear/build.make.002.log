@@ -1,0 +1,81 @@
+[  0%] Built target _nist_gear_generate_messages_check_deps_DroneControl
+[  0%] Built target _nist_gear_generate_messages_check_deps_SubmitTray
+[  0%] Built target _nist_gear_generate_messages_check_deps_DetectedProduct
+[  0%] Built target _nist_gear_generate_messages_check_deps_Order
+[  0%] Built target _nist_gear_generate_messages_check_deps_StorageUnit
+[  0%] Built target _nist_gear_generate_messages_check_deps_DetectedShipment
+[  0%] Built target _nist_gear_generate_messages_check_deps_Shipment
+[  0%] Built target _nist_gear_generate_messages_check_deps_AGVControl
+[  0%] Built target _nist_gear_generate_messages_check_deps_GetMaterialLocations
+[  0%] Built target _nist_gear_generate_messages_check_deps_SubmitShipment
+[  0%] Built target _nist_gear_generate_messages_check_deps_LogicalCameraImage
+[  0%] Built target _nist_gear_generate_messages_check_deps_DetectShipment
+[  0%] Built target _nist_gear_generate_messages_check_deps_Proximity
+[  0%] Built target _nist_gear_generate_messages_check_deps_VacuumGripperState
+[  0%] Built target _nist_gear_generate_messages_check_deps_Product
+[  0%] Built target _nist_gear_generate_messages_check_deps_PopulationControl
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target _nist_gear_generate_messages_check_deps_PopulationState
+[  0%] Built target _nist_gear_generate_messages_check_deps_ConveyorBeltState
+[  0%] Built target _nist_gear_generate_messages_check_deps_VacuumGripperControl
+[  0%] Built target _nist_gear_generate_messages_check_deps_ConveyorBeltControl
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target _nist_gear_generate_messages_check_deps_Model
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  1%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libSensorBlackoutPlugin.so[0m
+[  3%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libSideContactPlugin.so[0m
+[  3%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libProximityRayPlugin.so[0m
+[  4%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libPopulationPlugin.so[0m
+[  5%] Built target SensorBlackoutPlugin
+[  5%] Built target ProximityRayPlugin
+[  5%] Built target SideContactPlugin
+[  5%] Built target PopulationPlugin
+[  5%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libVacuumGripperPlugin.so[0m
+[  6%] [32m[1mLinking CXX executable /home/govind/ariac_ws/devel/.private/nist_gear/lib/nist_gear/tf2_relay[0m
+[  7%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libToggleVisualPlugin.so[0m
+[  7%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libLogPlaybackPlugin.so[0m
+[  8%] Built target tf2_relay
+[ 22%] Built target nist_gear_generate_messages_lisp
+[ 36%] Built target nist_gear_generate_messages_nodejs
+[ 50%] Built target nist_gear_generate_messages_eus
+[ 65%] Built target nist_gear_generate_messages_py
+[ 79%] Built target nist_gear_generate_messages_cpp
+[ 80%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libObjectDisposalPlugin.so[0m
+[ 81%] Built target LogPlaybackPlugin
+[ 81%] Built target ToggleVisualPlugin
+[ 82%] Built target VacuumGripperPlugin
+[ 82%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libROSLogicalCameraPlugin.so[0m
+[ 82%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libConveyorCongestionPlugin.so[0m
+[ 83%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libConveyorBeltPlugin.so[0m
+[ 84%] Built target ObjectDisposalPlugin
+[ 84%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libROSAGVPlugin.so[0m
+[ 86%] Built target ConveyorCongestionPlugin
+[ 86%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libROSVacuumGripperPlugin.so[0m
+[ 86%] Built target ConveyorBeltPlugin
+[ 86%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libROSLaserPlugin.so[0m
+[ 87%] Built target ROSAGVPlugin
+[ 87%] Built target nist_gear_generate_messages
+[ 88%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libROSPersonPlugin.so[0m
+[ 89%] Built target ROSVacuumGripperPlugin
+[ 90%] Built target ROSPersonPlugin
+[ 90%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libROSProximityRayPlugin.so[0m
+[ 91%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libROSPopulationPlugin.so[0m
+[ 92%] Built target ROSLogicalCameraPlugin
+[ 93%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libAriacScorer.so[0m
+[ 94%] Built target ROSProximityRayPlugin
+[ 95%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libROSAriacKitTrayPlugin.so[0m
+[ 95%] Built target ROSPopulationPlugin
+[ 95%] Built target AriacScorer
+[ 96%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libROSConveyorBeltPlugin.so[0m
+[ 97%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/nist_gear/lib/libROSAriacTaskManagerPlugin.so[0m
+[ 98%] Built target ROSLaserPlugin
+[100%] Built target ROSAriacKitTrayPlugin
+[100%] Built target ROSConveyorBeltPlugin
+[100%] Built target ROSAriacTaskManagerPlugin

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ariac_ws.dir/main.cpp.o  -o ariac_ws 

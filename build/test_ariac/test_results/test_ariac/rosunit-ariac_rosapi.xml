@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="18" name="unittest.suite.TestSuite" tests="42" time="17.608"><testcase classname="__main__.Tester" name="test_service__ariac_agv1" time="0.4587" /><testcase classname="__main__.Tester" name="test_service__ariac_agv1_animate" time="0.3304" /><testcase classname="__main__.Tester" name="test_service__ariac_agv2" time="0.3498" /><testcase classname="__main__.Tester" name="test_service__ariac_agv2_animate" time="0.3314" /><testcase classname="__main__.Tester" name="test_service__ariac_arm1_gripper_control" time="0.3112"><failure type="AssertionError">rosservice failed (['rosservice', 'info', '/ariac/arm1/gripper/control']). stdout:  stderr: ERROR: unknown service
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 171, in test_func
+    self._test_service(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 120, in _test_service
+    po.returncode, 0, 'rosservice failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_service__ariac_arm2_gripper_control" time="0.3157"><failure type="AssertionError">rosservice failed (['rosservice', 'info', '/ariac/arm2/gripper/control']). stdout:  stderr: ERROR: unknown service
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 171, in test_func
+    self._test_service(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 120, in _test_service
+    po.returncode, 0, 'rosservice failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_service__ariac_end_competition" time="0.3241" /><testcase classname="__main__.Tester" name="test_service__ariac_kit_tray_1_get_content" time="0.3601" /><testcase classname="__main__.Tester" name="test_service__ariac_kit_tray_2_get_content" time="0.3475" /><testcase classname="__main__.Tester" name="test_service__ariac_rosapi_get_loggers" time="0.3081" /><testcase classname="__main__.Tester" name="test_service__ariac_rosapi_set_logger_level" time="0.3098" /><testcase classname="__main__.Tester" name="test_service__ariac_start_competition" time="0.3104" /><testcase classname="__main__.Tester" name="test_service__ariac_submit_shipment" time="0.3600" /><testcase classname="__main__.Tester" name="test_topic__ariac_agv1_state" time="1.2509" /><testcase classname="__main__.Tester" name="test_topic__ariac_agv2_state" time="0.4399" /><testcase classname="__main__.Tester" name="test_topic__ariac_arm1_arm_command" time="0.4226"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/arm1/arm/command']). stdout:  stderr: ERROR: Unknown topic /ariac/arm1/arm/command
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_arm1_arm_state" time="0.4539"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/arm1/arm/state']). stdout:  stderr: ERROR: Unknown topic /ariac/arm1/arm/state
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_arm1_gripper_state" time="0.4320"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/arm1/gripper/state']). stdout:  stderr: ERROR: Unknown topic /ariac/arm1/gripper/state
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_arm1_joint_states" time="0.4076"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/arm1/joint_states']). stdout:  stderr: ERROR: Unknown topic /ariac/arm1/joint_states
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_arm2_arm_command" time="0.4281"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/arm2/arm/command']). stdout:  stderr: ERROR: Unknown topic /ariac/arm2/arm/command
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_arm2_arm_state" time="0.4411"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/arm2/arm/state']). stdout:  stderr: ERROR: Unknown topic /ariac/arm2/arm/state
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_arm2_gripper_state" time="0.4151"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/arm2/gripper/state']). stdout:  stderr: ERROR: Unknown topic /ariac/arm2/gripper/state
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_arm2_joint_states" time="0.4223"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/arm2/joint_states']). stdout:  stderr: ERROR: Unknown topic /ariac/arm2/joint_states
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_break_beam_1" time="0.4221"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/break_beam_1']). stdout:  stderr: ERROR: Unknown topic /ariac/break_beam_1
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_break_beam_1_change" time="0.4218"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/break_beam_1_change']). stdout:  stderr: ERROR: Unknown topic /ariac/break_beam_1_change
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_competition_state" time="0.4375" /><testcase classname="__main__.Tester" name="test_topic__ariac_conveyor_state" time="0.4199" /><testcase classname="__main__.Tester" name="test_topic__ariac_depth_camera_1" time="0.4146" /><testcase classname="__main__.Tester" name="test_topic__ariac_laser_profiler_1" time="0.4222"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/laser_profiler_1']). stdout:  stderr: ERROR: Unknown topic /ariac/laser_profiler_1
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_logical_camera_1" time="0.4396" /><testcase classname="__main__.Tester" name="test_topic__ariac_logical_camera_2" time="0.4269"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/logical_camera_2']). stdout:  stderr: ERROR: Unknown topic /ariac/logical_camera_2
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_logical_camera_3" time="0.4177"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/logical_camera_3']). stdout:  stderr: ERROR: Unknown topic /ariac/logical_camera_3
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_orders" time="0.4373" /><testcase classname="__main__.Tester" name="test_topic__ariac_population_state" time="0.4185" /><testcase classname="__main__.Tester" name="test_topic__ariac_proximity_sensor_1" time="0.4163"><failure type="AssertionError">rostopic failed (['rostopic', 'info', '/ariac/proximity_sensor_1']). stdout:  stderr: ERROR: Unknown topic /ariac/proximity_sensor_1
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__ariac_quality_control_sensor_1" time="0.4202" /><testcase classname="__main__.Tester" name="test_topic__ariac_quality_control_sensor_2" time="0.4252" /><testcase classname="__main__.Tester" name="test_topic__ariac_trays" time="0.4227" /><testcase classname="__main__.Tester" name="test_topic__clock" time="0.4342" /><testcase classname="__main__.Tester" name="test_topic__rosout" time="0.4190" /><testcase classname="__main__.Tester" name="test_topic__tf" time="0.4120"><failure type="AssertionError">3 != 4
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 50, in _test_topic
+    self._parse_rostopic(t, out)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 92, in _parse_rostopic
+    self.assertEqual(pubs, num_publishers)
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><testcase classname="__main__.Tester" name="test_topic__tf_static" time="0.4462"><failure type="AssertionError">2 != 3
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 50, in _test_topic
+    self._parse_rostopic(t, out)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 92, in _parse_rostopic
+    self.assertEqual(pubs, num_publishers)
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><system-out>&lt;![CDATA[
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

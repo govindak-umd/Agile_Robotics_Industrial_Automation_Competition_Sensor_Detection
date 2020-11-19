@@ -1,0 +1,1 @@
+/home/govind/ariac_ws/devel/.private/ariac_example/lib/python2.7/dist-packages/ariac_example/__init__.py

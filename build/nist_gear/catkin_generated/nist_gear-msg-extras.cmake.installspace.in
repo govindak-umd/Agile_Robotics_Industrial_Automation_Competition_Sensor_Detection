@@ -1,0 +1,2 @@
+set(nist_gear_MESSAGE_FILES "msg/ConveyorBeltState.msg;msg/DetectedProduct.msg;msg/Shipment.msg;msg/Product.msg;msg/Shipment.msg;msg/DetectedShipment.msg;msg/LogicalCameraImage.msg;msg/Model.msg;msg/Order.msg;msg/PopulationState.msg;msg/Proximity.msg;msg/StorageUnit.msg;msg/VacuumGripperState.msg")
+set(nist_gear_SERVICE_FILES "srv/AGVControl.srv;srv/DroneControl.srv;srv/DetectShipment.srv;srv/ConveyorBeltControl.srv;srv/GetMaterialLocations.srv;srv/PopulationControl.srv;srv/SubmitShipment.srv;srv/SubmitTray.srv;srv/VacuumGripperControl.srv")

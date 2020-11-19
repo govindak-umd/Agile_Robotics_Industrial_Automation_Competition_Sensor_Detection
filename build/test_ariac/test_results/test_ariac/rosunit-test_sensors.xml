@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="1" name="unittest.suite.TestSuite" tests="1" time="19.294"><testcase classname="__main__.SensorsTester" name="test" time="19.2944"><failure type="AssertionError">Callback not received from sensor: laser_profiler_1
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_sensors.py", line 32, in test
+    self._test_messages_received()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_sensors.py", line 45, in _test_messages_received
+    'Callback not received from sensor: ' + sensor_name)
+  File "/usr/lib/python2.7/unittest/case.py", line 422, in assertTrue
+    raise self.failureException(msg)
+</failure></testcase><system-out>&lt;![CDATA[
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

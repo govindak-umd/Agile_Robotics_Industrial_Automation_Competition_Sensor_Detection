@@ -1,0 +1,8 @@
+prefix=/home/govind/ariac_ws/devel/.private/test_ariac
+
+Name: test_ariac
+Description: Description of test_ariac
+Version: 3.0.6
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: nist_gear ariac_example

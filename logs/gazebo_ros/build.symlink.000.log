@@ -1,0 +1,12 @@
+Symlinking /home/govind/ariac_ws/devel/share/gazebo_ros/docs/PhysicsConfig.dox
+Symlinking /home/govind/ariac_ws/devel/share/gazebo_ros/docs/PhysicsConfig-usage.dox
+Symlinking /home/govind/ariac_ws/devel/share/gazebo_ros/docs/PhysicsConfig.wikidoc
+Symlinking /home/govind/ariac_ws/devel/share/gazebo_ros/cmake/gazebo_rosConfig-version.cmake
+Symlinking /home/govind/ariac_ws/devel/share/gazebo_ros/cmake/gazebo_rosConfig.cmake
+Symlinking /home/govind/ariac_ws/devel/include/gazebo_ros/PhysicsConfig.h
+Symlinking /home/govind/ariac_ws/devel/lib/libgazebo_ros_api_plugin.so
+Symlinking /home/govind/ariac_ws/devel/lib/libgazebo_ros_paths_plugin.so
+Symlinking /home/govind/ariac_ws/devel/lib/pkgconfig/gazebo_ros.pc
+Symlinking /home/govind/ariac_ws/devel/lib/python2.7/dist-packages/gazebo_ros/__init__.py
+Symlinking /home/govind/ariac_ws/devel/lib/python2.7/dist-packages/gazebo_ros/cfg/PhysicsConfig.py
+Symlinking /home/govind/ariac_ws/devel/lib/python2.7/dist-packages/gazebo_ros/cfg/__init__.py

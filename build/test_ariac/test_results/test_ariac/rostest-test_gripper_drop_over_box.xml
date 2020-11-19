@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="1" failures="0" name="unittest.suite.TestSuite" tests="1" time="75.330"><testcase classname="rostest.runner.RosTest" name="testtest_gripper_drop_over_box" time="75.3294"><error type="RLTestTimeoutException">max time [60.0s] allotted for test [test_gripper_drop_over_box] of type [test_ariac/test_gripper_drop_over_box.py]
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 689, in run_test
+    (test.time_limit, test.test_name, test.package, test.type))
+</error></testcase><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/gripper_drop_over_box.test] run_id[f3c298d4-0373-11eb-94f2-e4a7a005fd9d] starting
+&amp;#x001B;[1mstarted roslaunch server http://govind:32859/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+  /
+    ariac_sim (nist_gear/gear.py)
+
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/gripper_drop_over_box.test] run_id[f3c298d4-0373-11eb-94f2-e4a7a005fd9d] done
+[ROSTEST]Running test [test_gripper_drop_over_box]
+&amp;#x001B;[1mROS_MASTER_URI=http://govind:41023/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to f3c298d4-0373-11eb-94f2-e4a7a005fd9d&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[ariac_sim-1]: started with pid [398]&amp;#x001B;[0m
+[ROSTEST]removing previous test results file [/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-test_gripper_drop_over_box.xml]
+[ROSTEST]running test test_gripper_drop_over_box
+&amp;#x001B;[1mprocess[test_gripper_drop_over_box-2]: started with pid [399]&amp;#x001B;[0m
+[ROSTEST]tearDown[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/gripper_drop_over_box.test]
+shutting down processing monitor...
+[test_gripper_drop_over_box-2] killing on exit
+[ariac_sim-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/govind/ariac_ws/src/ARIAC/test_ariac/test/gripper_drop_over_box.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+&amp;#x001B;[31m[ariac_sim-1] escalating to SIGTERM&amp;#x001B;[0m
+
+]]&gt;</system-err></testsuite>

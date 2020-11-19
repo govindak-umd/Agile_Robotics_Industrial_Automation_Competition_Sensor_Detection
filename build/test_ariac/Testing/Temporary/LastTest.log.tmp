@@ -1,0 +1,966 @@
+Start testing: Sep 30 19:18 EDT
+----------------------------------------------------------
+1/52 Testing: test/ariac_rosapi.test
+1/52 Test: test/ariac_rosapi.test
+Command: "/opt/ros/melodic/bin/rostest" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_rosapi.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"test/ariac_rosapi.test" start time: Sep 30 19:18 EDT
+Output:
+----------------------------------------------------------
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+No handlers could be found for logger "rosout"
+Gazebo multi-robot simulator, version 9.0.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[33m[ WARN] [1601507920.350273347]: spawnURDFModel service called[0m
+[33m[ WARN] [1601507920.352630602]: spawnSDFModel service called[0m
+[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv1::kit_tray_1::kit_tray_1::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv2::kit_tray_2::kit_tray_2::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[1;33mWarning [parser_urdf.cc:1115][0m multiple inconsistent <gravity> exists due to fixed joint reduction overwriting previous value [false] with [true].
+[33m[ WARN] [1601507925.259444670]: spawnURDFModel service called[0m
+[33m[ WARN] [1601507925.259639701]: spawnSDFModel service called[0m
+[33m[ WARN] [1601507925.711878556]: unpausePhysics service called[0m
+[33m[ WARN] [1601507926.266944647, 0.265000000]: setModelConfiguration service called[0m
+[31m[ariac/gantry/gantry_controller_spawner-8] escalating to SIGTERM[0m
+[31m[ariac/gantry/joint_state_controller_spawner-5] escalating to SIGTERM[0m
+[WARN] [1601507970.094227, 19.046000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+[WARN] [1601507970.096746, 19.046000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+[31m[gazebo-2] escalating to SIGTERM[0m
+... logging to /home/govind/.ros/log/rostest-govind-29523.log
+[ROSUNIT] Outputting test results to /home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rostest-test_ariac_rosapi.xml
+[Testcase: testariac_rosapi] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_agv1][passed]
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_agv1_animate][passed]
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_agv2][passed]
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_agv2_animate][passed]
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_arm1_gripper_control][FAILURE]
+rosservice failed (['rosservice', 'info', '/ariac/arm1/gripper/control']). stdout:  stderr: ERROR: unknown service
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 171, in test_func
+    self._test_service(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 120, in _test_service
+    po.returncode, 0, 'rosservice failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_arm2_gripper_control][FAILURE]
+rosservice failed (['rosservice', 'info', '/ariac/arm2/gripper/control']). stdout:  stderr: ERROR: unknown service
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 171, in test_func
+    self._test_service(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 120, in _test_service
+    po.returncode, 0, 'rosservice failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_end_competition][passed]
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_kit_tray_1_get_content][passed]
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_kit_tray_2_get_content][passed]
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_rosapi_get_loggers][passed]
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_rosapi_set_logger_level][passed]
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_start_competition][passed]
+[test_ariac.rosunit-ariac_rosapi/test_service__ariac_submit_shipment][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_agv1_state][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_agv2_state][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_arm1_arm_command][FAILURE]---
+rostopic failed (['rostopic', 'info', '/ariac/arm1/arm/command']). stdout:  stderr: ERROR: Unknown topic /ariac/arm1/arm/command
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_arm1_arm_state][FAILURE]-----
+rostopic failed (['rostopic', 'info', '/ariac/arm1/arm/state']). stdout:  stderr: ERROR: Unknown topic /ariac/arm1/arm/state
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_arm1_gripper_state][FAILURE]-
+rostopic failed (['rostopic', 'info', '/ariac/arm1/gripper/state']). stdout:  stderr: ERROR: Unknown topic /ariac/arm1/gripper/state
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_arm1_joint_states][FAILURE]--
+rostopic failed (['rostopic', 'info', '/ariac/arm1/joint_states']). stdout:  stderr: ERROR: Unknown topic /ariac/arm1/joint_states
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_arm2_arm_command][FAILURE]---
+rostopic failed (['rostopic', 'info', '/ariac/arm2/arm/command']). stdout:  stderr: ERROR: Unknown topic /ariac/arm2/arm/command
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_arm2_arm_state][FAILURE]-----
+rostopic failed (['rostopic', 'info', '/ariac/arm2/arm/state']). stdout:  stderr: ERROR: Unknown topic /ariac/arm2/arm/state
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_arm2_gripper_state][FAILURE]-
+rostopic failed (['rostopic', 'info', '/ariac/arm2/gripper/state']). stdout:  stderr: ERROR: Unknown topic /ariac/arm2/gripper/state
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_arm2_joint_states][FAILURE]--
+rostopic failed (['rostopic', 'info', '/ariac/arm2/joint_states']). stdout:  stderr: ERROR: Unknown topic /ariac/arm2/joint_states
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_break_beam_1][FAILURE]-------
+rostopic failed (['rostopic', 'info', '/ariac/break_beam_1']). stdout:  stderr: ERROR: Unknown topic /ariac/break_beam_1
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_break_beam_1_change][FAILURE]
+rostopic failed (['rostopic', 'info', '/ariac/break_beam_1_change']). stdout:  stderr: ERROR: Unknown topic /ariac/break_beam_1_change
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_competition_state][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_conveyor_state][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_depth_camera_1][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_laser_profiler_1][FAILURE]---
+rostopic failed (['rostopic', 'info', '/ariac/laser_profiler_1']). stdout:  stderr: ERROR: Unknown topic /ariac/laser_profiler_1
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_logical_camera_1][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_logical_camera_2][FAILURE]---
+rostopic failed (['rostopic', 'info', '/ariac/logical_camera_2']). stdout:  stderr: ERROR: Unknown topic /ariac/logical_camera_2
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_logical_camera_3][FAILURE]---
+rostopic failed (['rostopic', 'info', '/ariac/logical_camera_3']). stdout:  stderr: ERROR: Unknown topic /ariac/logical_camera_3
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_orders][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_population_state][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_proximity_sensor_1][FAILURE]-
+rostopic failed (['rostopic', 'info', '/ariac/proximity_sensor_1']). stdout:  stderr: ERROR: Unknown topic /ariac/proximity_sensor_1
+
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 49, in _test_topic
+    po.returncode, 0, 'rostopic failed (%s). stdout: %s stderr: %s' % (cmd, out, err))
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_quality_control_sensor_1][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_quality_control_sensor_2][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__ariac_trays][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__clock][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__rosout][passed]
+[test_ariac.rosunit-ariac_rosapi/test_topic__tf][FAILURE]-----------------------
+3 != 4
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 50, in _test_topic
+    self._parse_rostopic(t, out)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 92, in _parse_rostopic
+    self.assertEqual(pubs, num_publishers)
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi/test_topic__tf_static][FAILURE]----------------
+2 != 3
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 165, in test_func
+    self._test_topic(t)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 50, in _test_topic
+    self._parse_rostopic(t, out)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/ros_api_checker", line 92, in _parse_rostopic
+    self.assertEqual(pubs, num_publishers)
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+
+SUMMARY
+[1;31m * RESULT: FAIL[0m
+ * TESTS: 42
+ * ERRORS: 0
+[1;31m * FAILURES: 18[0m
+
+rostest log file is in /home/govind/.ros/log/rostest-govind-29523.log
+<end of output>
+Test time =  60.09 sec
+----------------------------------------------------------
+Test Failed.
+"test/ariac_rosapi.test" end time: Sep 30 19:19 EDT
+"test/ariac_rosapi.test" time elapsed: 00:01:00
+----------------------------------------------------------
+
+2/52 Testing: check_test/ariac_rosapi.test
+2/52 Test: check_test/ariac_rosapi.test
+Command: "/opt/ros/melodic/bin/rosrun" "rosunit" "check_test_ran.py" "--rostest" "nist_gear" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_rosapi.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"check_test/ariac_rosapi.test" start time: Sep 30 19:19 EDT
+Output:
+----------------------------------------------------------
+Checking for test results in /home/govind/ariac_ws/build/test_ariac/test_results/nist_gear/rostest-test_ariac_rosapi.xml
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"check_test/ariac_rosapi.test" end time: Sep 30 19:19 EDT
+"check_test/ariac_rosapi.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/52 Testing: test/ariac_rosapi_development_mode.test
+3/52 Test: test/ariac_rosapi_development_mode.test
+Command: "/opt/ros/melodic/bin/rostest" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_rosapi_development_mode.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"test/ariac_rosapi_development_mode.test" start time: Sep 30 19:19 EDT
+Output:
+----------------------------------------------------------
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+No handlers could be found for logger "rosout"
+Gazebo multi-robot simulator, version 9.0.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[33m[ WARN] [1601507979.994851854]: spawnURDFModel service called[0m
+[33m[ WARN] [1601507979.995101782]: spawnSDFModel service called[0m
+[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv1::kit_tray_1::kit_tray_1::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv2::kit_tray_2::kit_tray_2::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[33m[ WARN] [1601507984.820380852]: spawnURDFModel service called[0m
+[33m[ WARN] [1601507984.822124159]: spawnSDFModel service called[0m
+[1;33mWarning [parser_urdf.cc:1115][0m multiple inconsistent <gravity> exists due to fixed joint reduction overwriting previous value [false] with [true].
+[33m[ WARN] [1601507985.142667726]: unpausePhysics service called[0m
+[33m[ WARN] [1601507986.149409261, 0.378000000]: setModelConfiguration service called[0m
+[31m[ariac/gantry/gantry_controller_spawner-8] escalating to SIGTERM[0m
+[31m[gazebo-2] escalating to SIGTERM[0m[WARN] [1601508014.992109, 9.433000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+[31m[ariac/gantry/joint_state_controller_spawner-5] escalating to SIGTERM[0m
+
+[WARN] [1601508014.993684, 9.433000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+... logging to /home/govind/.ros/log/rostest-govind-30438.log
+[ROSUNIT] Outputting test results to /home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rostest-test_ariac_rosapi_development_mode.xml
+[Testcase: testariac_rosapi_development_mode] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_rosapi_development_mode/test_service__ariac_kit_tray_1_clear_tray][passed]
+[test_ariac.rosunit-ariac_rosapi_development_mode/test_service__ariac_kit_tray_2_clear_tray][passed]
+[test_ariac.rosunit-ariac_rosapi_development_mode/test_service__ariac_material_locations][passed]
+[test_ariac.rosunit-ariac_rosapi_development_mode/test_service__ariac_rosapi_development_mode_get_loggers][passed]
+[test_ariac.rosunit-ariac_rosapi_development_mode/test_service__ariac_rosapi_development_mode_set_logger_level][passed]
+[test_ariac.rosunit-ariac_rosapi_development_mode/test_service__ariac_submit_shipment][passed]
+[test_ariac.rosunit-ariac_rosapi_development_mode/test_topic__ariac_current_score][passed]
+
+SUMMARY
+[32m * RESULT: SUCCESS[0m
+ * TESTS: 7
+ * ERRORS: 0
+ * FAILURES: 0
+
+rostest log file is in /home/govind/.ros/log/rostest-govind-30438.log
+<end of output>
+Test time =  45.08 sec
+----------------------------------------------------------
+Test Passed.
+"test/ariac_rosapi_development_mode.test" end time: Sep 30 19:20 EDT
+"test/ariac_rosapi_development_mode.test" time elapsed: 00:00:45
+----------------------------------------------------------
+
+4/52 Testing: check_test/ariac_rosapi_development_mode.test
+4/52 Test: check_test/ariac_rosapi_development_mode.test
+Command: "/opt/ros/melodic/bin/rosrun" "rosunit" "check_test_ran.py" "--rostest" "nist_gear" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_rosapi_development_mode.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"check_test/ariac_rosapi_development_mode.test" start time: Sep 30 19:20 EDT
+Output:
+----------------------------------------------------------
+Checking for test results in /home/govind/ariac_ws/build/test_ariac/test_results/nist_gear/rostest-test_ariac_rosapi_development_mode.xml
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"check_test/ariac_rosapi_development_mode.test" end time: Sep 30 19:20 EDT
+"check_test/ariac_rosapi_development_mode.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/52 Testing: test/ariac_example.test
+5/52 Test: test/ariac_example.test
+Command: "/opt/ros/melodic/bin/rostest" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_example.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"test/ariac_example.test" start time: Sep 30 19:20 EDT
+Output:
+----------------------------------------------------------
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+No handlers could be found for logger "rosout"
+Gazebo multi-robot simulator, version 9.0.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[33m[ WARN] [1601508027.307881011]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508027.310318234]: spawnSDFModel service called[0m
+[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv1::kit_tray_1::kit_tray_1::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv2::kit_tray_2::kit_tray_2::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[1;33mWarning [parser_urdf.cc:1115][0m multiple inconsistent <gravity> exists due to fixed joint reduction overwriting previous value [false] with [true].
+[33m[ WARN] [1601508033.108465998]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508033.108739109]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508033.574426046]: unpausePhysics service called[0m
+[33m[ WARN] [1601508034.118097523, 0.208000000]: setModelConfiguration service called[0m
+[31m[ariac/gantry/gantry_controller_spawner-8] escalating to SIGTERM[0m
+[WARN] [1601508058.797457, 5.783000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/unload_controller]: unexpected error [Errno 4] Interrupted system call
+[31m[ariac/gantry/joint_state_controller_spawner-5] escalating to SIGTERM[0m
+[WARN] [1601508058.802186, 5.783000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+[31m[gazebo-2] escalating to SIGTERM[0m
+... logging to /home/govind/.ros/log/rostest-govind-30971.log
+[ROSUNIT] Outputting test results to /home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rostest-test_ariac_example.xml
+[Testcase: testtest_ariac_example] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[test_ariac.rosunit-test_ariac_example/test][ERROR]-----------------------------
+'NoneType' object has no attribute 'position'
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_example_node.py", line 36, in test
+    self._test_send_arm_to_zero_state()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_example_node.py", line 77, in _test_send_arm_to_zero_state
+    for position in self.comp_class.arm_1_current_joint_state.position:
+--------------------------------------------------------------------------------
+
+
+SUMMARY
+[1;31m * RESULT: FAIL[0m
+ * TESTS: 1
+[1;31m * ERRORS: 1[0m
+ * FAILURES: 0
+
+rostest log file is in /home/govind/.ros/log/rostest-govind-30971.log
+<end of output>
+Test time =  43.25 sec
+----------------------------------------------------------
+Test Failed.
+"test/ariac_example.test" end time: Sep 30 19:20 EDT
+"test/ariac_example.test" time elapsed: 00:00:43
+----------------------------------------------------------
+
+6/52 Testing: check_test/ariac_example.test
+6/52 Test: check_test/ariac_example.test
+Command: "/opt/ros/melodic/bin/rosrun" "rosunit" "check_test_ran.py" "--rostest" "nist_gear" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_example.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"check_test/ariac_example.test" start time: Sep 30 19:20 EDT
+Output:
+----------------------------------------------------------
+Checking for test results in /home/govind/ariac_ws/build/test_ariac/test_results/nist_gear/rostest-test_ariac_example.xml
+<end of output>
+Test time =   0.24 sec
+----------------------------------------------------------
+Test Passed.
+"check_test/ariac_example.test" end time: Sep 30 19:20 EDT
+"check_test/ariac_example.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/52 Testing: test/ariac_tf_frames.test
+7/52 Test: test/ariac_tf_frames.test
+Command: "/opt/ros/melodic/bin/rostest" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_tf_frames.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"test/ariac_tf_frames.test" start time: Sep 30 19:20 EDT
+Output:
+----------------------------------------------------------
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+Gazebo multi-robot simulator, version 9.0.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+No handlers could be found for logger "rosout"
+[33m[ WARN] [1601508067.201556921]: spawnSDFModel service called[0m
+[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv1::kit_tray_1::kit_tray_1::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv2::kit_tray_2::kit_tray_2::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[33m[ WARN] [1601508069.088363276]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508069.088643103]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508069.321634304]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508069.528619801]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508069.778248059]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508069.779614231]: spawnSDFModel service called[0m
+[1;33mWarning [parser_urdf.cc:1115][0m multiple inconsistent <gravity> exists due to fixed joint reduction overwriting previous value [false] with [true].
+[33m[ WARN] [1601508070.186581391]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508070.640526905]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508070.881175934]: unpausePhysics service called[0m
+[33m[ WARN] [1601508071.194377748, 0.211000000]: setModelConfiguration service called[0m
+[31m[ariac/gantry/gantry_controller_spawner-8] escalating to SIGTERM[0m
+[WARN] [1601508089.650716, 2.254000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+[31m[ariac/gantry/joint_state_controller_spawner-5] escalating to SIGTERM[0m
+[WARN] [1601508089.658737, 2.254000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+[31m[gazebo-2] escalating to SIGTERM[0m
+... logging to /home/govind/.ros/log/rostest-govind-31407.log
+[ROSUNIT] Outputting test results to /home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rostest-test_ariac_tf_frames.xml
+[Testcase: testariac_tf_frames] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[test_ariac.rosunit-ariac_tf_frames/test][ERROR]--------------------------------
+"kit_tray_2" passed to lookupTransform argument target_frame does not exist. 
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_tf_frames.py", line 27, in test
+    self._test_tray_pose()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_tf_frames.py", line 41, in _test_tray_pose
+    'kit_tray_2',
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_tf_frames.py", line 90, in _test_pose
+    expected_pose.header.frame_id, frame_id, rospy.Time(), rospy.Duration(1.0)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/tf2_ros/buffer.py", line 87, in lookup_transform
+    return self.lookup_transform_core(target_frame, source_frame, time)
+--------------------------------------------------------------------------------
+
+
+SUMMARY
+[1;31m * RESULT: FAIL[0m
+ * TESTS: 1
+[1;31m * ERRORS: 1[0m
+ * FAILURES: 0
+
+rostest log file is in /home/govind/.ros/log/rostest-govind-31407.log
+<end of output>
+Test time =  30.35 sec
+----------------------------------------------------------
+Test Failed.
+"test/ariac_tf_frames.test" end time: Sep 30 19:21 EDT
+"test/ariac_tf_frames.test" time elapsed: 00:00:30
+----------------------------------------------------------
+
+8/52 Testing: check_test/ariac_tf_frames.test
+8/52 Test: check_test/ariac_tf_frames.test
+Command: "/opt/ros/melodic/bin/rosrun" "rosunit" "check_test_ran.py" "--rostest" "nist_gear" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_tf_frames.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"check_test/ariac_tf_frames.test" start time: Sep 30 19:21 EDT
+Output:
+----------------------------------------------------------
+Checking for test results in /home/govind/ariac_ws/build/test_ariac/test_results/nist_gear/rostest-test_ariac_tf_frames.xml
+<end of output>
+Test time =   0.36 sec
+----------------------------------------------------------
+Test Passed.
+"check_test/ariac_tf_frames.test" end time: Sep 30 19:21 EDT
+"check_test/ariac_tf_frames.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/52 Testing: test/gripper.test
+9/52 Test: test/gripper.test
+Command: "/opt/ros/melodic/bin/rostest" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/gripper.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"test/gripper.test" start time: Sep 30 19:21 EDT
+Output:
+----------------------------------------------------------
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+No handlers could be found for logger "rosout"
+Gazebo multi-robot simulator, version 9.0.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[33m[ WARN] [1601508098.310155231]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508098.310502438]: spawnSDFModel service called[0m
+[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv1::kit_tray_1::kit_tray_1::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv2::kit_tray_2::kit_tray_2::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[33m[ WARN] [1601508105.061863565]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508105.064074117]: spawnSDFModel service called[0m
+[1;33mWarning [parser_urdf.cc:1115][0m multiple inconsistent <gravity> exists due to fixed joint reduction overwriting previous value [false] with [true].
+[33m[ WARN] [1601508105.458148504]: unpausePhysics service called[0m
+[33m[ WARN] [1601508106.469025111, 0.245000000]: setModelConfiguration service called[0m
+[31m[ariac/gantry/gantry_controller_spawner-8] escalating to SIGTERM[0m
+[WARN] [1601508132.266224, 7.707000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+[31m[gazebo-2] escalating to SIGTERM[0m
+[31m[ariac/gantry/joint_state_controller_spawner-5] escalating to SIGTERM[0m
+[WARN] [1601508132.270976, 7.707000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+... logging to /home/govind/.ros/log/rostest-govind-32102.log
+[ROSUNIT] Outputting test results to /home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rostest-test_gripper.xml
+[Testcase: testtest_gripper] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[test_ariac.rosunit-test_gripper/test][ERROR]-----------------------------------
+'NoneType' object has no attribute 'enabled'
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_gripper.py", line 29, in test
+    self._test_enable_gripper()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_gripper.py", line 38, in _test_enable_gripper
+    self.assertFalse(self.comp_class.arm_1_current_gripper_state.enabled)
+--------------------------------------------------------------------------------
+
+
+SUMMARY
+[1;31m * RESULT: FAIL[0m
+ * TESTS: 1
+[1;31m * ERRORS: 1[0m
+ * FAILURES: 0
+
+rostest log file is in /home/govind/.ros/log/rostest-govind-32102.log
+<end of output>
+Test time =  42.23 sec
+----------------------------------------------------------
+Test Failed.
+"test/gripper.test" end time: Sep 30 19:22 EDT
+"test/gripper.test" time elapsed: 00:00:42
+----------------------------------------------------------
+
+10/52 Testing: check_test/gripper.test
+10/52 Test: check_test/gripper.test
+Command: "/opt/ros/melodic/bin/rosrun" "rosunit" "check_test_ran.py" "--rostest" "nist_gear" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/gripper.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"check_test/gripper.test" start time: Sep 30 19:22 EDT
+Output:
+----------------------------------------------------------
+Checking for test results in /home/govind/ariac_ws/build/test_ariac/test_results/nist_gear/rostest-test_gripper.xml
+<end of output>
+Test time =   0.22 sec
+----------------------------------------------------------
+Test Passed.
+"check_test/gripper.test" end time: Sep 30 19:22 EDT
+"check_test/gripper.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/52 Testing: test/gripper_drop_over_bins.test
+11/52 Test: test/gripper_drop_over_bins.test
+Command: "/opt/ros/melodic/bin/rostest" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/gripper_drop_over_bins.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"test/gripper_drop_over_bins.test" start time: Sep 30 19:22 EDT
+Output:
+----------------------------------------------------------
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+No handlers could be found for logger "rosout"
+Gazebo multi-robot simulator, version 9.0.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[33m[ WARN] [1601508138.771878983]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508138.774380471]: spawnSDFModel service called[0m
+[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv1::kit_tray_1::kit_tray_1::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv2::kit_tray_2::kit_tray_2::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[1;33mWarning [parser_urdf.cc:1115][0m multiple inconsistent <gravity> exists due to fixed joint reduction overwriting previous value [false] with [true].
+[33m[ WARN] [1601508144.120598966]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508144.120854032]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508144.560722262]: unpausePhysics service called[0m
+[33m[ WARN] [1601508145.130432691, 0.285000000]: setModelConfiguration service called[0m
+Traceback (most recent call last):
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_gripper_drop_over_bins.py", line 47, in <module>
+    rostest.run('test_ariac', 'test_gripper_bin_drop', GripperBinDropTester, sys.argv)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rostest/__init__.py", line 146, in rosrun
+    result = rosunit.create_xml_runner(package, test_name, result_file).run(suite)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosunit/xmlrunner.py", line 253, in run
+    test(result)
+  File "/usr/lib/python2.7/unittest/suite.py", line 70, in __call__
+    return self.run(*args, **kwds)
+  File "/usr/lib/python2.7/unittest/suite.py", line 108, in run
+    test(result)
+  File "/usr/lib/python2.7/unittest/case.py", line 393, in __call__
+    return self.run(*args, **kwds)
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_gripper_drop_over_bins.py", line 25, in test
+    self._enable_gripper(arm=1)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_gripper.py", line 54, in _enable_gripper
+    success = ariac_example.control_gripper(True, arm=arm)
+  File "/home/govind/ariac_ws/src/ARIAC/ariac_example/src/ariac_example/ariac_example.py", line 60, in control_gripper
+    rospy.wait_for_service(service_name)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_service.py", line 166, in wait_for_service
+    raise ROSInterruptException("rospy shutdown")
+rospy.exceptions.ROSInterruptException: rospy shutdown
+[31m[ariac/gantry/gantry_controller_spawner-8] escalating to SIGTERM[0m
+[WARN] [1601508209.112936, 41.760000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/unload_controller]: unexpected error [Errno 4] Interrupted system call
+[31m[gazebo-2] escalating to SIGTERM[0m
+[31m[ariac/gantry/joint_state_controller_spawner-5] escalating to SIGTERM[0m
+[WARN] [1601508209.128922, 41.760000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+... logging to /home/govind/.ros/log/rostest-govind-32488.log
+[ROSUNIT] Outputting test results to /home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rostest-test_gripper_drop_over_bins.xml
+[Testcase: testtest_gripper_drop_over_bins] ... ERROR!
+ERROR: max time [60.0s] allotted for test [test_gripper_drop_over_bins] of type [test_ariac/test_gripper_drop_over_bins.py]
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 689, in run_test
+    (test.time_limit, test.test_name, test.package, test.type))
+--------------------------------------------------------------------------------
+
+[ROSTEST]-----------------------------------------------------------------------
+
+
+SUMMARY
+[1;31m * RESULT: FAIL[0m
+ * TESTS: 0
+[1;31m * ERRORS: 1[0m
+ * FAILURES: 0
+
+rostest log file is in /home/govind/.ros/log/rostest-govind-32488.log
+<end of output>
+Test time =  77.24 sec
+----------------------------------------------------------
+Test Failed.
+"test/gripper_drop_over_bins.test" end time: Sep 30 19:23 EDT
+"test/gripper_drop_over_bins.test" time elapsed: 00:01:17
+----------------------------------------------------------
+
+12/52 Testing: check_test/gripper_drop_over_bins.test
+12/52 Test: check_test/gripper_drop_over_bins.test
+Command: "/opt/ros/melodic/bin/rosrun" "rosunit" "check_test_ran.py" "--rostest" "nist_gear" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/gripper_drop_over_bins.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"check_test/gripper_drop_over_bins.test" start time: Sep 30 19:23 EDT
+Output:
+----------------------------------------------------------
+Checking for test results in /home/govind/ariac_ws/build/test_ariac/test_results/nist_gear/rostest-test_gripper_drop_over_bins.xml
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"check_test/gripper_drop_over_bins.test" end time: Sep 30 19:23 EDT
+"check_test/gripper_drop_over_bins.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/52 Testing: test/gripper_drop_over_box.test
+13/52 Test: test/gripper_drop_over_box.test
+Command: "/opt/ros/melodic/bin/rostest" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/gripper_drop_over_box.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"test/gripper_drop_over_box.test" start time: Sep 30 19:23 EDT
+Output:
+----------------------------------------------------------
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+No handlers could be found for logger "rosout"
+Gazebo multi-robot simulator, version 9.0.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+[33m[ WARN] [1601508215.411761590]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508215.411974124]: spawnSDFModel service called[0m
+[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv1::kit_tray_1::kit_tray_1::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv2::kit_tray_2::kit_tray_2::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[33m[ WARN] [1601508220.392556570]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508220.394378431]: spawnSDFModel service called[0m
+[1;33mWarning [parser_urdf.cc:1115][0m multiple inconsistent <gravity> exists due to fixed joint reduction overwriting previous value [false] with [true].
+[33m[ WARN] [1601508220.729646857]: unpausePhysics service called[0m
+[33m[ WARN] [1601508221.736473502, 0.399000000]: setModelConfiguration service called[0m
+Traceback (most recent call last):
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_gripper_drop_over_box.py", line 67, in <module>
+    rostest.run('test_ariac', 'test_gripper_box_drop', GripperBoxDropTester, sys.argv)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rostest/__init__.py", line 146, in rosrun
+    result = rosunit.create_xml_runner(package, test_name, result_file).run(suite)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosunit/xmlrunner.py", line 253, in run
+    test(result)
+  File "/usr/lib/python2.7/unittest/suite.py", line 70, in __call__
+    return self.run(*args, **kwds)
+  File "/usr/lib/python2.7/unittest/suite.py", line 108, in run
+    test(result)
+  File "/usr/lib/python2.7/unittest/case.py", line 393, in __call__
+    return self.run(*args, **kwds)
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_gripper_drop_over_box.py", line 33, in test
+    self._enable_gripper(arm=1)
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_gripper.py", line 54, in _enable_gripper
+    success = ariac_example.control_gripper(True, arm=arm)
+  File "/home/govind/ariac_ws/src/ARIAC/ariac_example/src/ariac_example/ariac_example.py", line 60, in control_gripper
+    rospy.wait_for_service(service_name)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_service.py", line 166, in wait_for_service
+    raise ROSInterruptException("rospy shutdown")
+rospy.exceptions.ROSInterruptException: rospy shutdown
+[31m[ariac/gantry/joint_state_controller_spawner-5] escalating to SIGTERM[0m
+[WARN] [1601508286.216594, 46.211000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+[31m[ariac/gantry/gantry_controller_spawner-8] escalating to SIGTERM[0m
+[31m[gazebo-2] escalating to SIGTERM[0m
+[WARN] [1601508286.224830, 46.211000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/switch_controller]: unexpected error [Errno 4] Interrupted system call
+... logging to /home/govind/.ros/log/rostest-govind-380.log
+[ROSUNIT] Outputting test results to /home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rostest-test_gripper_drop_over_box.xml
+[Testcase: testtest_gripper_drop_over_box] ... ERROR!
+ERROR: max time [60.0s] allotted for test [test_gripper_drop_over_box] of type [test_ariac/test_gripper_drop_over_box.py]
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rostest/runner.py", line 148, in fn
+    self.test_parent.run_test(test)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rostest/rostest_parent.py", line 132, in run_test
+    return self.runner.run_test(test)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslaunch/launch.py", line 689, in run_test
+    (test.time_limit, test.test_name, test.package, test.type))
+--------------------------------------------------------------------------------
+
+[ROSTEST]-----------------------------------------------------------------------
+
+
+SUMMARY
+[1;31m * RESULT: FAIL[0m
+ * TESTS: 0
+[1;31m * ERRORS: 1[0m
+ * FAILURES: 0
+
+rostest log file is in /home/govind/.ros/log/rostest-govind-380.log
+<end of output>
+Test time =  76.88 sec
+----------------------------------------------------------
+Test Failed.
+"test/gripper_drop_over_box.test" end time: Sep 30 19:24 EDT
+"test/gripper_drop_over_box.test" time elapsed: 00:01:16
+----------------------------------------------------------
+
+14/52 Testing: check_test/gripper_drop_over_box.test
+14/52 Test: check_test/gripper_drop_over_box.test
+Command: "/opt/ros/melodic/bin/rosrun" "rosunit" "check_test_ran.py" "--rostest" "nist_gear" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/gripper_drop_over_box.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"check_test/gripper_drop_over_box.test" start time: Sep 30 19:24 EDT
+Output:
+----------------------------------------------------------
+Checking for test results in /home/govind/ariac_ws/build/test_ariac/test_results/nist_gear/rostest-test_gripper_drop_over_box.xml
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"check_test/gripper_drop_over_box.test" end time: Sep 30 19:24 EDT
+"check_test/gripper_drop_over_box.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/52 Testing: test/sensors.test
+15/52 Test: test/sensors.test
+Command: "/opt/ros/melodic/bin/rostest" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/sensors.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"test/sensors.test" start time: Sep 30 19:24 EDT
+Output:
+----------------------------------------------------------
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+Gazebo multi-robot simulator, version 9.0.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+No handlers could be found for logger "rosout"
+[33m[ WARN] [1601508297.867689688]: spawnSDFModel service called[0m
+[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv1::kit_tray_1::kit_tray_1::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[1;33m[Wrn] [ROSAriacKitTrayPlugin.cc:204] [0m[1;33magv2::kit_tray_2::kit_tray_2::tray[0m[1;33m: New subscription from node: [0m[1;33m/gazebo[0m[1;33m
+[0m[1;33m[0m[33m[ WARN] [1601508299.502775599]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508299.723243963]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508299.947955758]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508300.198353888]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508300.200777347]: spawnSDFModel service called[0m
+[1;33mWarning [parser_urdf.cc:1115][0m multiple inconsistent <gravity> exists due to fixed joint reduction overwriting previous value [false] with [true].
+[33m[ WARN] [1601508300.579285559]: spawnURDFModel service called[0m
+[33m[ WARN] [1601508300.579471917]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508301.051630539]: spawnSDFModel service called[0m
+[33m[ WARN] [1601508301.270209814]: unpausePhysics service called[0m
+[33m[ WARN] [1601508301.587914510, 0.208000000]: setModelConfiguration service called[0m
+[33m[ WARN] [1601508311.445576460, 5.044000000]: Force enabling conveyor because power set by task manager.[0m
+[31m[ariac/gantry/gantry_controller_spawner-8] escalating to SIGTERM[0m
+[WARN] [1601508333.339625, 8.359000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/unload_controller]: unexpected error [Errno 4] Interrupted system call
+[31m[gazebo-2] escalating to SIGTERM[0m
+[31m[ariac/gantry/joint_state_controller_spawner-5] escalating to SIGTERM[0m
+[WARN] [1601508333.362286, 8.359000]: Controller Spawner error while taking down controllers: transport error completing service call: receive_once[/ariac/gantry/controller_manager/unload_controller]: unexpected error [Errno 4] Interrupted system call
+... logging to /home/govind/.ros/log/rostest-govind-704.log
+[ROSUNIT] Outputting test results to /home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rostest-test_sensors.xml
+[Testcase: testtest_sensors] ... ok
+
+[ROSTEST]-----------------------------------------------------------------------
+
+[test_ariac.rosunit-test_sensors/test][FAILURE]---------------------------------
+Callback not received from sensor: laser_profiler_1
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_sensors.py", line 32, in test
+    self._test_messages_received()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_sensors.py", line 45, in _test_messages_received
+    'Callback not received from sensor: ' + sensor_name)
+  File "/usr/lib/python2.7/unittest/case.py", line 422, in assertTrue
+    raise self.failureException(msg)
+--------------------------------------------------------------------------------
+
+
+SUMMARY
+[1;31m * RESULT: FAIL[0m
+ * TESTS: 1
+ * ERRORS: 0
+[1;31m * FAILURES: 1[0m
+
+rostest log file is in /home/govind/.ros/log/rostest-govind-704.log
+<end of output>
+Test time =  46.55 sec
+----------------------------------------------------------
+Test Failed.
+"test/sensors.test" end time: Sep 30 19:25 EDT
+"test/sensors.test" time elapsed: 00:00:46
+----------------------------------------------------------
+
+16/52 Testing: check_test/sensors.test
+16/52 Test: check_test/sensors.test
+Command: "/opt/ros/melodic/bin/rosrun" "rosunit" "check_test_ran.py" "--rostest" "nist_gear" "/home/govind/ariac_ws/src/ARIAC/test_ariac/test/sensors.test"
+Directory: /home/govind/ariac_ws/build/test_ariac
+"check_test/sensors.test" start time: Sep 30 19:25 EDT
+Output:
+----------------------------------------------------------
+Checking for test results in /home/govind/ariac_ws/build/test_ariac/test_results/nist_gear/rostest-test_sensors.xml
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"check_test/sensors.test" end time: Sep 30 19:25 EDT
+"check_test/sensors.test" time elapsed: 00:00:00
+----------------------------------------------------------
+

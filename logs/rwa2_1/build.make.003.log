@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target rwa2_1[0m
+make[2]: Warning: File '/home/govind/ariac_ws/src/rwa2_1/src/rwa2_node.cpp' has modification time 10349 s in the future
+[ 50%] [32mBuilding CXX object CMakeFiles/rwa2_1.dir/src/rwa2_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/govind/ariac_ws/devel/.private/rwa2_1/lib/rwa2_1/rwa2_1[0m
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+[100%] Built target rwa2_1

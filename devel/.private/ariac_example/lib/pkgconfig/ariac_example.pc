@@ -1,0 +1,8 @@
+prefix=/home/govind/ariac_ws/devel/.private/ariac_example
+
+Name: ariac_example
+Description: Description of ariac_example
+Version: 3.0.6
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

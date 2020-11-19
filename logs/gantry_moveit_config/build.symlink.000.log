@@ -1,0 +1,3 @@
+Symlinking /home/govind/ariac_ws/devel/share/gantry_moveit_config/cmake/gantry_moveit_configConfig-version.cmake
+Symlinking /home/govind/ariac_ws/devel/share/gantry_moveit_config/cmake/gantry_moveit_configConfig.cmake
+Symlinking /home/govind/ariac_ws/devel/lib/pkgconfig/gantry_moveit_config.pc

@@ -1,0 +1,5 @@
+Symlinking /home/govind/ariac_ws/devel/share/ariac_example/cmake/ariac_exampleConfig-version.cmake
+Symlinking /home/govind/ariac_ws/devel/share/ariac_example/cmake/ariac_exampleConfig.cmake
+Symlinking /home/govind/ariac_ws/devel/lib/ariac_example/ariac_example_node
+Symlinking /home/govind/ariac_ws/devel/lib/pkgconfig/ariac_example.pc
+Symlinking /home/govind/ariac_ws/devel/lib/python2.7/dist-packages/ariac_example/__init__.py

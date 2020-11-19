@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="23.174"><testcase classname="rostest.runner.RosTest" name="testtest_scoring_missing_parts" time="23.1735" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test_scoring/ariac_scoring_missing_parts.test] run_id[aa0da146-eb92-11ea-aec3-e4a7a005fd9d] starting
+&amp;#x001B;[1mstarted roslaunch server http://govind:44733/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+  /
+    ariac_sim (nist_gear/gear.py)
+
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test_scoring/ariac_scoring_missing_parts.test] run_id[aa0da146-eb92-11ea-aec3-e4a7a005fd9d] done
+[ROSTEST]Running test [test_scoring_missing_parts]
+&amp;#x001B;[1mROS_MASTER_URI=http://govind:37931/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to aa0da146-eb92-11ea-aec3-e4a7a005fd9d&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[ariac_sim-1]: started with pid [20217]&amp;#x001B;[0m
+[ROSTEST]running test test_scoring_missing_parts
+&amp;#x001B;[1mprocess[test_scoring_missing_parts-2]: started with pid [20218]&amp;#x001B;[0m
+[ariac_sim-1] killing on exit
+[test_scoring_missing_parts-2] killing on exit
+[ROSTEST]test [test_scoring_missing_parts] finished
+[ROSTEST]test [test_scoring_missing_parts] results are in [/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-test_scoring_missing_parts.xml]
+WARN: cannot read test result file [/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-test_scoring_missing_parts.xml]: no element found: line 2, column 0
+[ROSTEST]test [test_scoring_missing_parts] results summary: 0 errors, 0 failures, 0 tests
+[ROSTEST][ROSTEST] test [test_scoring_missing_parts] done
+[ROSTEST]tearDown[/home/govind/ariac_ws/src/ARIAC/test_ariac/test_scoring/ariac_scoring_missing_parts.test]
+shutting down processing monitor...
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/govind/ariac_ws/src/ARIAC/test_ariac/test_scoring/ariac_scoring_missing_parts.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

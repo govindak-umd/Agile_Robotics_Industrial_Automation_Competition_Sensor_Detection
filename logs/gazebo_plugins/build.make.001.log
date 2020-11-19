@@ -1,0 +1,171 @@
+[  1%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_vacuum_gripper.so[0m
+[  2%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_template.so[0m
+[  3%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_ft_sensor.so[0m
+[  5%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_range.so[0m
+[  6%] Built target gazebo_ros_template
+[  7%] Built target gazebo_ros_ft_sensor
+[  8%] Built target gazebo_ros_vacuum_gripper
+[ 10%] Built target gazebo_ros_range
+[ 11%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_planar_move.so[0m
+[ 12%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_utils.so[0m
+[ 13%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_video.so[0m
+[ 15%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_hand_of_god.so[0m
+[ 16%] Built target gazebo_ros_utils
+[ 17%] Built target gazebo_ros_planar_move
+[ 17%] Built target tf2_msgs_generate_messages_eus
+[ 18%] Built target gazebo_ros_hand_of_god
+[ 18%] Built target diagnostic_msgs_generate_messages_nodejs
+[ 18%] Built target diagnostic_msgs_generate_messages_lisp
+[ 18%] Built target diagnostic_msgs_generate_messages_eus
+[ 18%] Built target polled_camera_generate_messages_py
+[ 18%] Built target polled_camera_generate_messages_cpp
+[ 18%] Built target polled_camera_generate_messages_eus
+[ 18%] Built target dynamic_reconfigure_generate_messages_py
+[ 18%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 18%] Built target dynamic_reconfigure_generate_messages_eus
+[ 18%] Built target tf2_msgs_generate_messages_nodejs
+[ 18%] Built target std_srvs_generate_messages_py
+[ 18%] Built target std_srvs_generate_messages_cpp
+[ 18%] Built target geometry_msgs_generate_messages_py
+[ 18%] Built target geometry_msgs_generate_messages_eus
+[ 18%] Built target geometry_msgs_generate_messages_lisp
+[ 18%] Built target roscpp_generate_messages_cpp
+[ 18%] Built target sensor_msgs_generate_messages_nodejs
+[ 18%] Built target actionlib_generate_messages_cpp
+[ 18%] Built target trajectory_msgs_generate_messages_eus
+[ 18%] Built target polled_camera_generate_messages_nodejs
+[ 18%] Built target roscpp_generate_messages_py
+[ 18%] Built target polled_camera_generate_messages_lisp
+[ 18%] Built target trajectory_msgs_generate_messages_cpp
+[ 18%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 18%] Built target sensor_msgs_generate_messages_eus
+[ 18%] Built target tf_generate_messages_py
+[ 18%] Built target std_msgs_generate_messages_cpp
+[ 18%] Built target sensor_msgs_generate_messages_py
+[ 18%] Built target nodelet_generate_messages_py
+[ 18%] Built target nav_msgs_generate_messages_nodejs
+[ 18%] Built target actionlib_msgs_generate_messages_nodejs
+[ 18%] Built target geometry_msgs_generate_messages_nodejs
+[ 18%] Built target trajectory_msgs_generate_messages_py
+[ 18%] Built target gazebo_msgs_generate_messages_py
+[ 18%] Built target std_msgs_generate_messages_eus
+[ 20%] Built target gazebo_ros_video
+[ 20%] Built target gazebo_msgs_generate_messages_eus
+[ 20%] Built target sensor_msgs_generate_messages_lisp
+[ 20%] Built target std_srvs_generate_messages_nodejs
+[ 20%] Built target nav_msgs_generate_messages_cpp
+[ 20%] Built target nodelet_generate_messages_cpp
+[ 20%] Built target bond_generate_messages_py
+[ 20%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 20%] Built target actionlib_generate_messages_lisp
+[ 20%] Built target geometry_msgs_generate_messages_cpp
+[ 20%] Built target gazebo_msgs_generate_messages_cpp
+[ 20%] Built target std_msgs_generate_messages_nodejs
+[ 20%] Built target bond_generate_messages_lisp
+[ 20%] Built target sensor_msgs_generate_messages_cpp
+[ 20%] Built target roscpp_generate_messages_nodejs
+[ 20%] Built target std_msgs_generate_messages_lisp
+[ 20%] Built target gazebo_msgs_generate_messages_lisp
+[ 20%] Built target diagnostic_msgs_generate_messages_py
+[ 20%] Built target std_srvs_generate_messages_eus
+[ 20%] Built target roscpp_generate_messages_lisp
+[ 20%] Built target _catkin_empty_exported_target
+[ 20%] Built target bond_generate_messages_eus
+[ 20%] Built target std_srvs_generate_messages_lisp
+[ 20%] Built target std_msgs_generate_messages_py
+[ 20%] Built target rosgraph_msgs_generate_messages_cpp
+[ 20%] Built target gazebo_msgs_generate_messages_nodejs
+[ 20%] Built target rosgraph_msgs_generate_messages_eus
+[ 20%] Built target rosgraph_msgs_generate_messages_lisp
+[ 20%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 20%] Built target nodelet_generate_messages_eus
+[ 20%] Built target nodelet_generate_messages_lisp
+[ 20%] Built target roscpp_generate_messages_eus
+[ 20%] Built target rosgraph_msgs_generate_messages_py
+[ 20%] Built target nodelet_generate_messages_nodejs
+[ 20%] Built target actionlib_msgs_generate_messages_eus
+[ 20%] Built target trajectory_msgs_generate_messages_lisp
+[ 20%] Built target bond_generate_messages_cpp
+[ 20%] Built target actionlib_msgs_generate_messages_cpp
+[ 20%] Built target tf_generate_messages_eus
+[ 20%] Built target trajectory_msgs_generate_messages_nodejs
+[ 20%] Built target bond_generate_messages_nodejs
+[ 20%] Built target nav_msgs_generate_messages_lisp
+[ 20%] Built target dynamic_reconfigure_gencfg
+[ 20%] Built target tf2_msgs_generate_messages_lisp
+[ 20%] Built target nav_msgs_generate_messages_py
+[ 20%] Built target actionlib_msgs_generate_messages_lisp
+[ 20%] Built target actionlib_msgs_generate_messages_py
+[ 20%] Built target tf_generate_messages_lisp
+[ 20%] Built target actionlib_generate_messages_eus
+[ 20%] Built target diagnostic_msgs_generate_messages_cpp
+[ 20%] Built target tf_generate_messages_nodejs
+[ 20%] Built target tf_generate_messages_cpp
+[ 20%] Built target actionlib_generate_messages_nodejs
+[ 20%] Built target tf2_msgs_generate_messages_py
+[ 20%] Built target actionlib_generate_messages_py
+[ 20%] Built target tf2_msgs_generate_messages_cpp
+[ 20%] Built target nav_msgs_generate_messages_eus
+[ 21%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_force.so[0m
+[ 22%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_imu.so[0m
+[ 23%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_projector.so[0m
+[ 25%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_block_laser.so[0m
+[ 26%] Built target gazebo_ros_force
+[ 27%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libMultiCameraPlugin.so[0m
+[ 28%] Built target gazebo_ros_imu
+[ 30%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_laser.so[0m
+[ 31%] Built target gazebo_ros_projector
+[ 32%] Built target gazebo_ros_block_laser
+[ 33%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_harness.so[0m
+[ 35%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_bumper.so[0m
+[ 36%] Built target MultiCameraPlugin
+[ 37%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_joint_pose_trajectory.so[0m
+[ 38%] Built target gazebo_ros_harness
+[ 40%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_skid_steer_drive.so[0m
+[ 41%] Built target gazebo_ros_bumper
+[ 42%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_tricycle_drive.so[0m
+[ 43%] Built target gazebo_ros_laser
+[ 45%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_imu_sensor.so[0m
+[ 46%] Built target gazebo_ros_joint_pose_trajectory
+[ 47%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_f3d.so[0m
+[ 48%] Built target gazebo_ros_skid_steer_drive
+[ 50%] [32m[1mLinking CXX executable /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/gazebo_plugins/pub_joint_trajectory_test[0m
+[ 51%] Built target gazebo_ros_tricycle_drive
+[ 52%] Built target gazebo_ros_imu_sensor
+[ 53%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_p3d.so[0m
+[ 55%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_gpu_laser.so[0m
+[ 56%] Built target gazebo_ros_f3d
+[ 57%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_diff_drive.so[0m
+[ 58%] Built target pub_joint_trajectory_test
+[ 60%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_joint_state_publisher.so[0m
+[ 61%] Built target gazebo_ros_p3d
+[ 66%] Built target gazebo_plugins_gencfg
+[ 67%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_camera_utils.so[0m
+[ 68%] Built target gazebo_ros_diff_drive
+[ 70%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libvision_reconfigure.so[0m
+[ 71%] Built target gazebo_ros_gpu_laser
+[ 72%] Built target gazebo_ros_joint_state_publisher
+[ 73%] [32m[1mLinking CXX executable /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/gazebo_plugins/hokuyo_node[0m
+[ 75%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_elevator.so[0m
+[ 76%] Built target vision_reconfigure
+[ 77%] [32m[1mLinking CXX executable /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/gazebo_plugins/camera_synchronizer[0m
+[ 78%] Built target hokuyo_node
+[ 80%] Built target gazebo_ros_elevator
+[ 81%] Built target gazebo_ros_camera_utils
+[35m[1mScanning dependencies of target gazebo_ros_prosilica[0m
+[ 82%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_camera.so[0m
+[ 83%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_triggered_camera.so[0m
+[ 85%] Built target camera_synchronizer
+[ 86%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_depth_camera.so[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/gazebo_ros_prosilica.dir/src/gazebo_ros_prosilica.cpp.o[0m
+[ 88%] Built target gazebo_ros_camera
+[ 90%] Built target gazebo_ros_triggered_camera
+[ 91%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_multicamera.so[0m
+[ 92%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_openni_kinect.so[0m
+[ 93%] Built target gazebo_ros_depth_camera
+[ 95%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_triggered_multicamera.so[0m
+[ 97%] Built target gazebo_ros_multicamera
+[ 97%] Built target gazebo_ros_openni_kinect
+[ 98%] Built target gazebo_ros_triggered_multicamera
+[100%] [32m[1mLinking CXX shared library /home/govind/ariac_ws/devel/.private/gazebo_plugins/lib/libgazebo_ros_prosilica.so[0m
+[100%] Built target gazebo_ros_prosilica

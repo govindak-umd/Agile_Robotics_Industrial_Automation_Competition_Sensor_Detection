@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/govind/ariac_ws/src/rwa2_1/CMakeLists.txt:141 (add_executable):
+  Cannot find source file:
+
+    src/rwa2_1_node.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: rwa2_1_node
+CMake Error: Cannot determine link language for target "rwa2_1_node".

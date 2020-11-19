@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="1" failures="0" name="unittest.suite.TestSuite" tests="1" time="12.536"><testcase classname="__main__.GripperTester" name="test" time="12.5361"><error type="AttributeError">'NoneType' object has no attribute 'enabled'
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_gripper.py", line 29, in test
+    self._test_enable_gripper()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_gripper.py", line 38, in _test_enable_gripper
+    self.assertFalse(self.comp_class.arm_1_current_gripper_state.enabled)
+</error></testcase><system-out>&lt;![CDATA[
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

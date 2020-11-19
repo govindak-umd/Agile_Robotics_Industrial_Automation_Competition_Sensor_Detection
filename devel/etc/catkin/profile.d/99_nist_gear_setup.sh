@@ -1,0 +1,1 @@
+/home/govind/ariac_ws/devel/.private/nist_gear/etc/catkin/profile.d/99_nist_gear_setup.sh

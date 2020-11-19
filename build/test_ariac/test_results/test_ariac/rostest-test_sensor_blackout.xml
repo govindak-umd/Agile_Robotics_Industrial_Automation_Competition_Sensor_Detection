@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="48.987"><testcase classname="rostest.runner.RosTest" name="testtest_sensor_blackout" time="48.9873" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/sensor_blackout.test] run_id[3d8f225c-0374-11eb-94f2-e4a7a005fd9d] starting
+&amp;#x001B;[1mstarted roslaunch server http://govind:41637/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+  /
+    ariac_sim (nist_gear/gear.py)
+
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/sensor_blackout.test] run_id[3d8f225c-0374-11eb-94f2-e4a7a005fd9d] done
+[ROSTEST]Running test [test_sensor_blackout]
+&amp;#x001B;[1mROS_MASTER_URI=http://govind:43987/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to 3d8f225c-0374-11eb-94f2-e4a7a005fd9d&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[ariac_sim-1]: started with pid [1130]&amp;#x001B;[0m
+[ROSTEST]removing previous test results file [/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-test_sensor_blackout.xml]
+[ROSTEST]running test test_sensor_blackout
+&amp;#x001B;[1mprocess[test_sensor_blackout-2]: started with pid [1131]&amp;#x001B;[0m
+&amp;#x001B;[1m[test_sensor_blackout-2] process has finished cleanly
+log file: /home/govind/.ros/log/3d8f225c-0374-11eb-94f2-e4a7a005fd9d/test_sensor_blackout-2*.log&amp;#x001B;[0m
+[ROSTEST]test [test_sensor_blackout] finished
+[ROSTEST]test [test_sensor_blackout] results are in [/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-test_sensor_blackout.xml]
+[ROSTEST]test [test_sensor_blackout] results summary: 0 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [test_sensor_blackout] done
+[ROSTEST]tearDown[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/sensor_blackout.test]
+shutting down processing monitor...
+[ariac_sim-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/govind/ariac_ws/src/ARIAC/test_ariac/test/sensor_blackout.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+&amp;#x001B;[31m[ariac_sim-1] escalating to SIGTERM&amp;#x001B;[0m
+
+]]&gt;</system-err></testsuite>

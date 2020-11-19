@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="43.492"><testcase classname="rostest.runner.RosTest" name="testariac_rosapi_development_mode" time="43.4924" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_rosapi_development_mode.test] run_id[650fff96-0373-11eb-94f2-e4a7a005fd9d] starting
+&amp;#x001B;[1mstarted roslaunch server http://govind:38965/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+  /
+    ariac_sim (nist_gear/gear.py)
+
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_rosapi_development_mode.test] run_id[650fff96-0373-11eb-94f2-e4a7a005fd9d] done
+[ROSTEST]Running test [ariac_rosapi_development_mode]
+&amp;#x001B;[1mROS_MASTER_URI=http://govind:40941/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to 650fff96-0373-11eb-94f2-e4a7a005fd9d&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[ariac_sim-1]: started with pid [30456]&amp;#x001B;[0m
+[ROSTEST]removing previous test results file [/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-ariac_rosapi_development_mode.xml]
+[ROSTEST]running test ariac_rosapi_development_mode
+&amp;#x001B;[1mprocess[ariac_rosapi_development_mode-2]: started with pid [30457]&amp;#x001B;[0m
+&amp;#x001B;[1m[ariac_rosapi_development_mode-2] process has finished cleanly
+log file: /home/govind/.ros/log/650fff96-0373-11eb-94f2-e4a7a005fd9d/ariac_rosapi_development_mode-2*.log&amp;#x001B;[0m
+[ROSTEST]test [ariac_rosapi_development_mode] finished
+[ROSTEST]test [ariac_rosapi_development_mode] results are in [/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-ariac_rosapi_development_mode.xml]
+[ROSTEST]test [ariac_rosapi_development_mode] results summary: 0 errors, 0 failures, 7 tests
+[ROSTEST][ROSTEST] test [ariac_rosapi_development_mode] done
+[ROSTEST]tearDown[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_rosapi_development_mode.test]
+shutting down processing monitor...
+[ariac_sim-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_rosapi_development_mode.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+&amp;#x001B;[31m[ariac_sim-1] escalating to SIGTERM&amp;#x001B;[0m
+
+]]&gt;</system-err></testsuite>

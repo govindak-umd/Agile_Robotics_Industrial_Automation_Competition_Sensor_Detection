@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="44.696"><testcase classname="rostest.runner.RosTest" name="testtest_scoring_correct_parts_plus_unwanted" time="44.6956" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test_scoring/ariac_scoring_correct_parts_plus_unwanted.test] run_id[57a0a4d0-eb92-11ea-aec3-e4a7a005fd9d] starting
+&amp;#x001B;[1mstarted roslaunch server http://govind:33437/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+  /
+    ariac_sim (nist_gear/gear.py)
+
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test_scoring/ariac_scoring_correct_parts_plus_unwanted.test] run_id[57a0a4d0-eb92-11ea-aec3-e4a7a005fd9d] done
+[ROSTEST]Running test [test_scoring_correct_parts_plus_unwanted]
+&amp;#x001B;[1mROS_MASTER_URI=http://govind:39363/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to 57a0a4d0-eb92-11ea-aec3-e4a7a005fd9d&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[ariac_sim-1]: started with pid [19185]&amp;#x001B;[0m
+[ROSTEST]running test test_scoring_correct_parts_plus_unwanted
+&amp;#x001B;[1mprocess[test_scoring_correct_parts_plus_unwanted-2]: started with pid [19186]&amp;#x001B;[0m
+[ROSTEST]test [test_scoring_correct_parts_plus_unwanted] finished
+[ROSTEST]test [test_scoring_correct_parts_plus_unwanted] results are in [/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-test_scoring_correct_parts_plus_unwanted.xml]
+[ROSTEST]test [test_scoring_correct_parts_plus_unwanted] results summary: 0 errors, 1 failures, 1 tests
+[ROSTEST][ROSTEST] test [test_scoring_correct_parts_plus_unwanted] done
+[ROSTEST]tearDown[/home/govind/ariac_ws/src/ARIAC/test_ariac/test_scoring/ariac_scoring_correct_parts_plus_unwanted.test]
+shutting down processing monitor...
+[ariac_sim-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/govind/ariac_ws/src/ARIAC/test_ariac/test_scoring/ariac_scoring_correct_parts_plus_unwanted.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+&amp;#x001B;[31m[test_scoring_correct_parts_plus_unwanted-2] process has died [pid 19186, exit code 1, cmd /home/govind/ariac_ws/src/ARIAC/test_ariac/test_scoring_against_expected_score.py 10 submit_agv1:order_0_shipment_0 wait:5 --gtest_output=xml:/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-test_scoring_correct_parts_plus_unwanted.xml __name:=test_scoring_correct_parts_plus_unwanted __log:=/home/govind/.ros/log/57a0a4d0-eb92-11ea-aec3-e4a7a005fd9d/test_scoring_correct_parts_plus_unwanted-2.log].
+log file: /home/govind/.ros/log/57a0a4d0-eb92-11ea-aec3-e4a7a005fd9d/test_scoring_correct_parts_plus_unwanted-2*.log&amp;#x001B;[0m
+&amp;#x001B;[31m[ariac_sim-1] escalating to SIGTERM&amp;#x001B;[0m
+
+]]&gt;</system-err></testsuite>

@@ -1,0 +1,7 @@
+set(ariac_example_SETUP_PY_SETUP_MODULE "distutils.core")
+set(ariac_example_SETUP_PY_VERSION "3.0.6")
+set(ariac_example_SETUP_PY_SCRIPTS "")
+set(ariac_example_SETUP_PY_PACKAGES "ariac_example")
+set(ariac_example_SETUP_PY_PACKAGE_DIRS "src/ariac_example")
+set(ariac_example_SETUP_PY_MODULES "")
+set(ariac_example_SETUP_PY_MODULE_DIRS "")

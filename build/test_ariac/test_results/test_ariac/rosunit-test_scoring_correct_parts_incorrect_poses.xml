@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="1" name="unittest.suite.TestSuite" tests="1" time="7.541"><testcase classname="__main__.ScoringTester" name="test" time="7.5408"><failure type="AssertionError">15.0 != 10.0
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/govind/ariac_ws/src/ARIAC/test_ariac/test_scoring_against_expected_score.py", line 48, in test
+    self.assertEqual(self.current_comp_score, expectedScore)
+  File "/usr/lib/python2.7/unittest/case.py", line 513, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/usr/lib/python2.7/unittest/case.py", line 506, in _baseAssertEqual
+    raise self.failureException(msg)
+</failure></testcase><system-out>&lt;![CDATA[
+Submitting agv1 shipment order_0_shipment_0
+Waiting for 5 seconds
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>

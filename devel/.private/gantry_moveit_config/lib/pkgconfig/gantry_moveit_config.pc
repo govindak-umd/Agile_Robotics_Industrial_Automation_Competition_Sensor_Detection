@@ -1,0 +1,8 @@
+prefix=/home/govind/ariac_ws/devel/.private/gantry_moveit_config
+
+Name: gantry_moveit_config
+Description: Description of gantry_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

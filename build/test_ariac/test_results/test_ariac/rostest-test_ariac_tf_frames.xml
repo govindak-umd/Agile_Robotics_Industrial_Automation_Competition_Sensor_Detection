@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="1" time="28.873"><testcase classname="rostest.runner.RosTest" name="testariac_tf_frames" time="28.8728" /><system-out>&lt;![CDATA[
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_tf_frames.test] run_id[9a38d03a-0373-11eb-94f2-e4a7a005fd9d] starting
+&amp;#x001B;[1mstarted roslaunch server http://govind:46727/&amp;#x001B;[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.9
+
+NODES
+  /
+    ariac_sim (nist_gear/gear.py)
+
+[ROSTEST]setup[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_tf_frames.test] run_id[9a38d03a-0373-11eb-94f2-e4a7a005fd9d] done
+[ROSTEST]Running test [ariac_tf_frames]
+&amp;#x001B;[1mROS_MASTER_URI=http://govind:46653/&amp;#x001B;[0m
+&amp;#x001B;[1msetting /run_id to 9a38d03a-0373-11eb-94f2-e4a7a005fd9d&amp;#x001B;[0m
+&amp;#x001B;[1mprocess[ariac_sim-1]: started with pid [31437]&amp;#x001B;[0m
+[ROSTEST]removing previous test results file [/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-ariac_tf_frames.xml]
+[ROSTEST]running test ariac_tf_frames
+&amp;#x001B;[1mprocess[ariac_tf_frames-2]: started with pid [31438]&amp;#x001B;[0m
+[ROSTEST]test [ariac_tf_frames] finished
+[ROSTEST]test [ariac_tf_frames] results are in [/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-ariac_tf_frames.xml]
+[ROSTEST]test [ariac_tf_frames] results summary: 1 errors, 0 failures, 1 tests
+[ROSTEST][ROSTEST] test [ariac_tf_frames] done
+[ROSTEST]tearDown[/home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_tf_frames.test]
+shutting down processing monitor...
+[ariac_sim-1] killing on exit
+... shutting down processing monitor complete
+[ROSTEST]rostest teardown /home/govind/ariac_ws/src/ARIAC/test_ariac/test/ariac_tf_frames.test complete
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+&amp;#x001B;[31m[ariac_tf_frames-2] process has died [pid 31438, exit code 1, cmd /home/govind/ariac_ws/src/ARIAC/test_ariac/test_tf_frames.py --gtest_output=xml:/home/govind/ariac_ws/build/test_ariac/test_results/test_ariac/rosunit-ariac_tf_frames.xml __name:=ariac_tf_frames __log:=/home/govind/.ros/log/9a38d03a-0373-11eb-94f2-e4a7a005fd9d/ariac_tf_frames-2.log].
+log file: /home/govind/.ros/log/9a38d03a-0373-11eb-94f2-e4a7a005fd9d/ariac_tf_frames-2*.log&amp;#x001B;[0m
+&amp;#x001B;[31m[ariac_sim-1] escalating to SIGTERM&amp;#x001B;[0m
+
+]]&gt;</system-err></testsuite>

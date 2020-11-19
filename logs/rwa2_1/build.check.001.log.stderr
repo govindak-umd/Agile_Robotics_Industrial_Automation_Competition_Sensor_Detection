@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/govind/ariac_ws/src/rwa2_1/CMakeLists.txt:154 (target_link_libraries):
+  Cannot specify link libraries for target "rwa2_1_node" which is not built
+  by this project.
+
+
+make: *** [cmake_check_build_system] Error 1

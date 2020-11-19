@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target rwa2_1_node[0m
+make[2]: *** No rule to make target 'CMakeFiles/rwa2_1_node.dir/build'.  Stop.
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/rwa2_1_node.dir/all' failed
+make[1]: *** [CMakeFiles/rwa2_1_node.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

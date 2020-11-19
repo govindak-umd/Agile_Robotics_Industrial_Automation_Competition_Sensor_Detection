@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="7" time="2.507"><testcase classname="__main__.Tester" name="test_service__ariac_kit_tray_1_clear_tray" time="0.3288" /><testcase classname="__main__.Tester" name="test_service__ariac_kit_tray_2_clear_tray" time="0.3214" /><testcase classname="__main__.Tester" name="test_service__ariac_material_locations" time="0.3487" /><testcase classname="__main__.Tester" name="test_service__ariac_rosapi_development_mode_get_loggers" time="0.3846" /><testcase classname="__main__.Tester" name="test_service__ariac_rosapi_development_mode_set_logger_level" time="0.3342" /><testcase classname="__main__.Tester" name="test_service__ariac_submit_shipment" time="0.3474" /><testcase classname="__main__.Tester" name="test_topic__ariac_current_score" time="0.4412" /><system-out>&lt;![CDATA[
+
+]]&gt;</system-out><system-err>&lt;![CDATA[
+
+]]&gt;</system-err></testsuite>
